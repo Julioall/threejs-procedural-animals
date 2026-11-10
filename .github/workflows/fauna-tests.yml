@@ -22,3 +22,5 @@ jobs:
       - run: npm ci
       - name: Verify added species (rigging, gaits, actions, bake)
         run: npm test -- blackbird lynx --quality low
+      - name: Verify all European bird and lynx morphs
+        run: node tools/test-fauna-variants.mjs
