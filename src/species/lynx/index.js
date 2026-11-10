@@ -24,6 +24,7 @@ export default {
     // Seeded cat proportions and coat channels, constrained to the lynx morph.
     const p = cat.variation(R, { ...opts, variant: 'mackerel' });
     p.lynxMorph = morph;
+    p.variant = morph;
     p.size *= morph === 'iberian' ? 1.98 : 2.33;
     p.tail = (p.tail || 1) * 0.35;
     p.longhair = true;
