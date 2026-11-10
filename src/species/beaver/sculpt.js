@@ -22,7 +22,7 @@ export function sculptBeaver(model, rig, params) {
     model.ell({
       tag: 'beaverPaddle', bone: 'tail' + i, group: 'axial',
       c: lerp(a, b, 0.5), axis: norm(d), up: [0, 1, 0],
-      r: [0.0045, 0.027 * Math.max(0.18, outline), L * 0.87],
+      r: [0.027 * Math.max(0.18, outline), 0.0045, L * 0.87],
       k: 0.004, thin: true,
     });
   }
