@@ -8,6 +8,9 @@ import { motion, WING, FEATHERS } from './motion.js';
 import { featherCards } from '../../core/build/featherCards.js';
 import { srgb } from '../../core/build/coatKit.js';
 
+// Keep the established bird eye preset available to related small songbirds.
+export { EYE_LOOK } from '../crow/index.js';
+
 export default {
   id: 'blackbird',
   name: 'European blackbird',
