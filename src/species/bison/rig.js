@@ -1,2 +1,4 @@
-// The original bovine cloven-hoof skeleton is suitable for European bison.
-export { cowRig as bisonRig, HEAD_O } from '../cow/rig.js';
+// Use the existing bovine rig with its required joint map (not the species params).
+import { cowRig, cowJoints, HEAD_O } from '../cow/rig.js';
+export { HEAD_O };
+export function bisonRig() { return cowRig(cowJoints()); }
