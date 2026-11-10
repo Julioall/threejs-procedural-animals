@@ -1,0 +1,22 @@
+name: European fauna catalog integrity
+
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'tools/test-european-fauna-catalog.mjs'
+      - '.github/workflows/fauna-catalog.yml'
+  workflow_dispatch:
+
+jobs:
+  imports:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Check 20 species registrations and imports (no visual validation)
+        run: node tools/test-european-fauna-catalog.mjs
