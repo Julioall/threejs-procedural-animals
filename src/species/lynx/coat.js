@@ -31,7 +31,7 @@ function spotDistance(y, z, side, seed, density) {
 }
 
 export function lynxCoat(ctx) {
-  const out = catCoat(ctx);
+  const out = catCoat({ ...ctx, params: { ...ctx.params, variant: 'mackerel' } });
   const { pos, weights, rig, nV, params, regionNames, regionOf } = ctx;
   const seed = (params.coatSeed || 1) % 997;
   const iberian = params.lynxMorph === 'iberian';
