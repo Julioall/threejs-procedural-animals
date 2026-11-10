@@ -2,10 +2,7 @@
 import type { Object3D, Vector3 } from 'three';
 
 export type SpeciesId =
-  | 'wolf' | 'dog' | 'fox' | 'cat' | 'lion' | 'cheetah' | 'bear' | 'rat'
-  | 'horse' | 'deer' | 'cow' | 'pig' | 'sheep' | 'goat' | 'boar'
-  | 'chicken' | 'crow' | 'eagle' | 'fish' | 'shark'
-  | 'rabbit' | 'frog' | 'snake' | 'spider';
+  'badger' | 'bear' | 'beaver' | 'bison' | 'blackbird' | 'boar' | 'cat' | 'cheetah' | 'chicken' | 'cow' | 'crow' | 'deer' | 'dog' | 'eagle' | 'fish' | 'fox' | 'frog' | 'goat' | 'gull' | 'heron' | 'horse' | 'ibex' | 'lion' | 'lizard' | 'lynx' | 'marmot' | 'marten' | 'moose' | 'owl' | 'pig' | 'pigeon' | 'rabbit' | 'rat' | 'reindeer' | 'robin' | 'salamander' | 'shark' | 'sheep' | 'snake' | 'sparrow' | 'spider' | 'squirrel' | 'weasel' | 'wolf';
 
 export type Quality = 'hero' | 'high' | 'medium' | 'low' | 'crowd';
 

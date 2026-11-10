@@ -2,10 +2,10 @@
 
 **[Live showcase](https://majidmanzarpour.github.io/threejs-procedural-animals/)** · [Repository](https://github.com/majidmanzarpour/threejs-procedural-animals) · <!-- demo video link -->
 
-24 animals for three.js, generated entirely in code: no models, no textures, no animation clips.
+44 animals for three.js, generated entirely in code: no models, no textures, no animation clips.
 Call `createAnimal('wolf')`, add it to your scene and steer it.
 
-- **24 species, 6 body plans:** paws, hooves, birds, swimmers, snakes, spiders (plus hoppers). Breeds,
+- **44 species, 6 body plans:** paws, hooves, birds, swimmers, snakes, spiders (plus hoppers). Breeds,
   coats and morphs, both sexes, young animals.
 - **Built at runtime:** sculpted from signed distance fields, meshed, rigged, skinned
   (dual-quaternion), covered in fur, feathers or scales, and animated with IK gaits and actions.
@@ -184,11 +184,15 @@ The complete reference (every option, event payload, state field and recipe) is 
 | `lion` | paws | tawny, white | roar, yawn |
 | `cheetah` | paws | | sprint gait |
 | `bear` | paws | eurasian, grizzly, coastal, black | standup, sniff, dig |
+| `badger` | paws | european | bear-based plantigrade motion |
 | `rat` | paws | wild, agouti, dark, albino, hooded | rear, groom, scurry, box |
+| `squirrel` | paws | red, dark, grey | raised furred tail, rodent motion |
+| `beaver` | paws | brown, dark | flattened tail, land motion only |
 | `rabbit` | hopper | wild, domestic, fawn, black, white, dutch, lop, ... | hop, binky, groom, periscope, thump, flee |
 | `horse` | hooves | bay, darkbay, chestnut, black, grey, palomino, dun, buckskin | rideable (`seat`, stirrups) |
 | `deer` | hooves | summer, winter | stomp, alert, flee |
 | `cow` | hooves | holstein, hereford, angus, jersey, highland | lick, chew, moo, swish, shake |
+| `bison` | hooves | european | hump, mane, beard and bovine gaits |
 | `pig` | hooves | largewhite, landrace, duroc, hampshire, berkshire, spotted | wallow, grunt, sniff, root, frolic |
 | `sheep` | hooves | whiteface, suffolk, merino, black, shorn | alert, bleat, headshake, stamp, pronk |
 | `goat` | hooves | saanen, alpine, pied, nubian, boer | browse, bleat, headshake, paw |
@@ -196,6 +200,22 @@ The complete reference (every option, event payload, state field and recipe) is 
 | `frog` | hopper | bullfrog, bullfrog-pale, common-frog | hop, croak, blink |
 | `chicken` | bird | red, leghorn, australorp, barred, buff, speckled | rooster, chick |
 | `crow` | bird | american, carrion, hooded | |
+| `blackbird` | bird | male, female | small songbird with sex-specific plumage |
+| `lynx` | paws | eurasian, iberian | cat-based short-tailed wild felid |
+| `moose` | hooves | summer, winter | cervid antlers and shoulder hump |
+| `marten` | paws | chestnut, dark | elongated mustelid with pale throat |
+| `sparrow` | bird | male, female | small passerine, seed variation |
+| `pigeon` | bird | blue, dark | rock pigeon, rounded breast |
+| `gull` | bird | adult, juvenile | coastal gull with pale wings and bill |
+| `owl` | bird | rufous, grey | rounded head, facial disc and feathered body |
+| `heron` | bird | grey | grey heron, long legs and bill |
+| `robin` | bird | adult, juvenile | orange-red throat and chest |
+| `marmot` | paws | alpine, dark | stocky rodent and furry tail |
+| `weasel` | paws | summer, winter | small elongated mustelid |
+| `reindeer` | hooves | summer, winter | cervid with antlers in both sexes |
+| `ibex` | hooves | alpine | mountain goat and strongly curved horns |
+| `lizard` | paws | green, brown | lacertid reptile skin and long jointed tail |
+| `salamander` | paws | spotted, striped | yellow-black wet-skinned amphibian |
 | `eagle` | bird | bald, golden | |
 | `fish` | swimmer | trout, goldfish, clownfish, bluegill | burst |
 | `shark` | swimmer | white, blacktip | burst |

@@ -1,7 +1,7 @@
 {
   "name": "procedural-animals",
   "version": "0.1.0",
-  "description": "24 fully procedural animals for three.js: SDF-sculpted bodies, dual-quaternion skinning, GPU fur, feathers and scales, IK locomotion and actions. No models, no textures, no downloads.",
+  "description": "44 fully procedural animals for three.js: SDF-sculpted bodies, dual-quaternion skinning, GPU fur, feathers and scales, IK locomotion and actions. No models, no textures, no downloads.",
   "license": "MIT",
   "author": "Majid Manzarpour",
   "homepage": "https://majidmanzarpour.github.io/threejs-procedural-animals/",
