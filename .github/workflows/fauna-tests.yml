@@ -1,0 +1,24 @@
+name: Procedural fauna species smoke tests
+
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'tools/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/fauna-tests.yml'
+  workflow_dispatch:
+
+jobs:
+  species:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Verify added species (rigging, gaits, actions, bake)
+        run: npm test -- blackbird lynx --quality low
