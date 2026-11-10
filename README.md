@@ -2,10 +2,10 @@
 
 **[Live showcase](https://majidmanzarpour.github.io/threejs-procedural-animals/)** · [Repository](https://github.com/majidmanzarpour/threejs-procedural-animals) · <!-- demo video link -->
 
-24 animals for three.js, generated entirely in code: no models, no textures, no animation clips.
+26 animals for three.js, generated entirely in code: no models, no textures, no animation clips.
 Call `createAnimal('wolf')`, add it to your scene and steer it.
 
-- **24 species, 6 body plans:** paws, hooves, birds, swimmers, snakes, spiders (plus hoppers). Breeds,
+- **26 species, 6 body plans:** paws, hooves, birds, swimmers, snakes, spiders (plus hoppers). Breeds,
   coats and morphs, both sexes, young animals.
 - **Built at runtime:** sculpted from signed distance fields, meshed, rigged, skinned
   (dual-quaternion), covered in fur, feathers or scales, and animated with IK gaits and actions.
@@ -182,6 +182,7 @@ The complete reference (every option, event payload, state field and recipe) is 
 | `fox` | paws | red, cross, silver, urban | pounce, listen |
 | `cat` | paws | mackerel, classic, ginger, black, tuxedo, calico, grey | loaf, groom, knead, stalk, slowblink |
 | `lion` | paws | tawny, white | roar, yawn |
+| `lynx` | paws | Eurasian, Iberian | felid locomotion; short tail and ear tufts |
 | `cheetah` | paws | | sprint gait |
 | `bear` | paws | eurasian, grizzly, coastal, black | standup, sniff, dig |
 | `rat` | paws | wild, agouti, dark, albino, hooded | rear, groom, scurry, box |
@@ -196,6 +197,7 @@ The complete reference (every option, event payload, state field and recipe) is 
 | `frog` | hopper | bullfrog, bullfrog-pale, common-frog | hop, croak, blink |
 | `chicken` | bird | red, leghorn, australorp, barred, buff, speckled | rooster, chick |
 | `crow` | bird | american, carrion, hooded | |
+| `blackbird` | bird | male, female | smaller songbird, yellow male bill |
 | `eagle` | bird | bald, golden | |
 | `fish` | swimmer | trout, goldfish, clownfish, bluegill | burst |
 | `shark` | swimmer | white, blacktip | burst |
