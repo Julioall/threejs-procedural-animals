@@ -3,7 +3,10 @@
 // directly: `import wolf from 'procedural-animals/species/wolf'; createAnimal(wolf, ...)`.
 const loaders = {
   bear: () => import('./species/bear/index.js'),
+  beaver: () => import('./species/beaver/index.js'),
+  badger: () => import('./species/badger/index.js'),
   boar: () => import('./species/boar/index.js'),
+  bison: () => import('./species/bison/index.js'),
   cat: () => import('./species/cat/index.js'),
   cheetah: () => import('./species/cheetah/index.js'),
   chicken: () => import('./species/chicken/index.js'),
@@ -22,6 +25,7 @@ const loaders = {
   rabbit: () => import('./species/rabbit/index.js'),
   rat: () => import('./species/rat/index.js'),
   shark: () => import('./species/shark/index.js'),
+  squirrel: () => import('./species/squirrel/index.js'),
   sheep: () => import('./species/sheep/index.js'),
   snake: () => import('./species/snake/index.js'),
   spider: () => import('./species/spider/index.js'),

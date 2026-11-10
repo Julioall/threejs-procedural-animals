@@ -2,8 +2,8 @@
 import type { Object3D, Vector3 } from 'three';
 
 export type SpeciesId =
-  | 'wolf' | 'dog' | 'fox' | 'cat' | 'lion' | 'cheetah' | 'bear' | 'rat'
-  | 'horse' | 'deer' | 'cow' | 'pig' | 'sheep' | 'goat' | 'boar'
+  | 'wolf' | 'dog' | 'fox' | 'cat' | 'lion' | 'cheetah' | 'bear' | 'badger' | 'rat' | 'squirrel' | 'beaver'
+  | 'horse' | 'deer' | 'cow' | 'bison' | 'pig' | 'sheep' | 'goat' | 'boar'
   | 'chicken' | 'crow' | 'eagle' | 'fish' | 'shark'
   | 'rabbit' | 'frog' | 'snake' | 'spider';
 
